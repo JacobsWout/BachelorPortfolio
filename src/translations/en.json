@@ -1,0 +1,159 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About Me",
+    "internship": "Internship",
+    "projects": "Projects",
+    "cv": "CV"
+  },
+  "home": {
+    "intro": "Welcome to my portfolio",
+    "subtitle": "Software Developer in training",
+    "graduation": "Graduation Portfolio",
+    "graduationDescription": "This portfolio represents the culmination of my studies and shows my growth as a developer. Here you will find an overview of my internship experience, projects and skills.",
+    "profilePicture": "Profile Picture",
+    "title": "Graduation Portfolio",
+    "description": "Welcome to my portfolio website. I am a passionate software developer with the goal of growing and learning"
+  },
+  "about": {
+    "title": "Who am I",
+    "subtitle": "A passionate developer with a drive for innovation",
+    "description": "As a final year Application Development student at Thomas More University College, I am constantly expanding my knowledge and skills. My eagerness to learn and perseverance are my greatest assets. I am always ready to help and support others whenever possible. This combination of qualities makes me a valuable addition to any development team.",
+    "description2": "With a background in both frontend and backend development, I strive to create innovative solutions that are not only technically solid but also provide an excellent user experience.",
+    "whoAmI": "Who am I?",
+    "profilePicture": "Profile Picture",
+    "profileTitle": "Software Developer",
+    "experience": {
+      "title": "Experience",
+      "internship": {
+        "title": "Internship at Euricom",
+        "description": "Development of a progressive web application called Euristrike for Euricom's DEV-Cruise"
+      },
+      "education": {
+        "title": "Thomas More University College",
+        "description": "Application Development"
+      }
+    },
+    "skills": {
+      "title": "Skills",
+      "description": "My expertise and technical knowledge",
+      "technicalSkills": "Technical Skills",
+      "softSkills": {
+        "title": "Soft Skills",
+        "enthusiastic": "Enthusiastic",
+        "driven": "Driven",
+        "teamplayer": "Team Player",
+        "communicative": "Communicative",
+        "problemSolver": "Problem Solver",
+        "adaptable": "Adaptable"
+      },
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "tools": "Tools"
+    },
+    "hobbies": {
+      "title": "Hobbies",
+      "description": "Besides programming, I enjoy...",
+      "list": {
+        "football": "Football",
+        "gaming": "Gaming",
+        "hiking": "Hiking"
+      }
+    }
+  },
+  "internship": {
+    "title": "Internship Experience",
+    "subtitle": "An overview of my internship period and acquired skills",
+    "about": {
+      "title": "About the Internship",
+      "description1": "The Euristrike Application is an innovative tool that I developed for Euricom's annual DEV-Cruise, a four-day team building event abroad. The purpose of the application is to improve team dynamics and collaboration through a playful and competitive environment. The application offers different game modes, such as 'Free for All' and 'Ranked Mode', where participants can eliminate each other using a Nerf gun.",
+      "description2": "The Application is used during the DEV-Cruise to let employees communicate with each other in a fun and interactive way. Through innovative features and an intuitive interface, the application enables users to communicate with each other in a playful and competitive way. This not only contributes to better team spirit but also to increased productivity and satisfaction among participants.",
+      "description3": "During the development of the Euristrike Application, I learned a lot about both technical and organizational aspects. I collaborated in a team with a student from another college, which contributed to valuable cross-pollination of knowledge, insights, and skills. Additionally, I learned how important it is to collect and process user feedback, which led to further refinement and improvement of the application. Through the challenges we encountered and overcame, I gained valuable experience in problem-solving and project management.",
+      "technologies": ["React", ".NET", "Azure", "Git"]
+    },
+    "timeline": {
+      "title": "Timeline",
+      "week1": {
+        "title": "Project Preparation",
+        "description": "This week was focused on planning and preparing the new project. I established goals and tasks, created a product vision box, and started with the initial analysis of the project to better understand the foundation and main functionalities."
+      },
+      "week2": {
+        "title": "Research and Analysis",
+        "description": "This week involved in-depth research. I also analyzed data to gain insights into trends and created prototypes to get a visual representation of the application. Additionally, I set up pipelines in Azure for automated build and deploy processes."
+      },
+      "week3": {
+        "title": "Development",
+        "description": "This week was dedicated to project development. I worked on the frontend and backend, processed feedback, and created a PowerPoint presentation in preparation for the project plan. I also developed a login page using Microsoft Authentication Library (MSAL) and Entra ID."
+      },
+      "week4": {
+        "title": "Testing and Feedback",
+        "description": "This week I tested the first version of the project and collected feedback from the team and some users. This helped to make improvements. Additionally, I worked on the homepage and implemented token validation in the backend."
+      },
+      "week5": {
+        "title": "Implementation",
+        "description": "This week I implemented the improvements and further refined the project. I also performed some final tests to ensure everything works well. Additionally, I gave a demo presentation about the project progress and worked on the Selected Game page."
+      },
+      "week6": {
+        "title": "Launch",
+        "description": "The project was officially launched this week. I had a successful launch and received positive feedback from users. I also worked on the design for the target page and developed a reusable button component."
+      },
+      "week7": {
+        "title": "Evaluation",
+        "description": "This week I evaluated the launch and analyzed the initial results. I also collected feedback from users to make further improvements. Additionally, I worked on bug fixes and built the QR code generation page and scanner page."
+      }
+    },
+    "documents": {
+      "title": "Documents",
+      "analysis": {
+        "title": "Analysis",
+        "description": "Detailed analysis of the internship assignment and technical requirements"
+      },
+      "projectPlan": {
+        "title": "Project Plan",
+        "description": "Planning and approach of the internship project with timeline and milestones"
+      },
+      "implementation": {
+        "title": "Implementation",
+        "description": "Documentation of implemented functionalities and technical implementation"
+      },
+      "reflection": {
+        "title": "Reflection",
+        "description": "Personal reflection on the internship period and lessons learned"
+      },
+      "download": "Download Word"
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "An overview of my projects and work",
+    "viewProject": "View Project",
+    "viewCode": "View Code",
+    "viewVideo": "View Video",
+    "technologies": "Technologies",
+    "dialog": {
+      "close": "Close",
+      "demo": "View Demo",
+      "code": "View Code",
+      "video": "View Video"
+    },
+    "comingSoon": "Coming soon",
+    "list": {
+      "project1": {
+        "title": "AI Bank Dashboard",
+        "description": "An innovative dashboard for managing and analyzing AI-driven conversations with village residents.",
+        "longDescription": "<p>For project 4.0, my team and I were tasked with developing an innovative and interactive AI bank for the organization RURANT. RURANT is a non-profit organization dedicated to improving livability and connectivity in rural areas. Within their \"Resilient Villages\" initiative, they want to hear the voice of residents in a new way and respond accordingly. Our AI bank plays a central role in this.</p>\n\n<h3>What does the AI bank do?</h3>\n\n<p>The bank is designed to engage in conversation with people who sit on it in an accessible way. Through artificial intelligence, the bank asks questions to passersby or village residents. These questions focus on themes that are important to the village or community, such as well-being, connectivity, future visions, or local needs. The answers are collected and stored completely anonymously. This creates a valuable database of insights and opinions directly from the residents themselves.</p>\n\n<h3>Our role in the project</h3>\n\n<p>Within this project, my role as a student of applied computer science with a focus on app development was to actively contribute to the development of the dashboard. This dashboard forms the link between the data collected by the AI bank and the people at RURANT who work with it.</p>\n\n<h3>The dashboard has various functions:</h3>\n\n<ul>\n<li>Answer visualization: The anonymous data is displayed clearly so that trends, needs, and ideas are quickly visible.</li>\n\n<li>Questionnaire management: Through the dashboard, RURANT staff can easily create, modify, or delete new questions. This keeps the bank relevant and current in responding to what's happening in the villages.</li>\n\n<li>User-friendliness: One of my main contributions was ensuring the dashboard is intuitive and user-friendly, so that people without technical backgrounds can work with it.</li>\n</ul>\n\n<h3>Promo and presentation</h3>\n\n<p>The end result of our collaboration was summarized in a promotional video, which also clearly explains the dashboard and its operation. This video serves not only as a demonstration of the technology but also as a tool for RURANT to communicate the added value of the project to local governments, communities, and potential partners.</p>\n\n<h3>Reflection</h3>\n\n<p>It was a particularly educational project where technology, social engagement, and teamwork came together. As a student, I was able to not only apply and refine my technical skills but also contribute to a concrete social goal: strengthening the resilience and cohesion in Flemish villages.</p>",
+        "technologies": "React, TypeScript, Node.js, AI Integration, Data Analysis",
+        "image": "/project1.jpg",
+        "link": "https://frankdebank.nl"
+      },
+      "project2": {
+        "title": "Project 2",
+        "description": "Another project showcasing my expertise in web development. Built with modern technologies and best practices."
+      },
+      "project3": {
+        "title": "Project 3",
+        "description": "A complex project combining different aspects of software development. Shows my ability to tackle large projects."
+      }
+    }
+  }
+} 

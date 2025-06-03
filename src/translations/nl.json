@@ -1,0 +1,158 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "Over Mij",
+    "internship": "Stage",
+    "projects": "Projecten",
+    "cv": "CV"
+  },
+  "home": {
+    "intro": "Welkom bij mijn portfolio",
+    "subtitle": "Software Developer in opleiding",
+    "graduation": "Afstudeerportfolio",
+    "graduationDescription": "Dit portfolio vertegenwoordigt de culminatie van mijn studie en toont mijn groei als ontwikkelaar. Hier vindt u een overzicht van mijn stage-ervaring, projecten en vaardigheden.",
+    "profilePicture": "Profielfoto",
+    "title": "Afstudeerportfolio",
+    "description": "Welkom op mijn portfolio website. Ik ben een gepassioneerde software developer met als doel groeien en bijleren "
+  },
+  "about": {
+    "title": "Wie ben ik",
+    "subtitle": "Een gepassioneerde ontwikkelaar met een drive voor innovatie",
+    "description": "Als laatstejaarsstudent Application Development aan de Thomas More Hogeschool ben ik constant bezig met het uitbreiden van mijn kennis en vaardigheden. Mijn leergierigheid en doorzettingsvermogen zijn mijn grootste troeven. Ik sta altijd klaar om anderen te helpen en te ondersteunen waar mogelijk. Deze combinatie van eigenschappen maakt mij tot een waardevolle toevoeging aan elk ontwikkelteam.",
+    "description2": "Met een achtergrond in zowel frontend als backend development, streef ik ernaar om innovatieve oplossingen te creëren die niet alleen technisch solide zijn, maar ook een geweldige gebruikerservaring bieden.",
+    "whoAmI": "Wie ben ik?",
+    "profilePicture": "Profielfoto",
+    "profileTitle": "Software Developer",
+    "experience": {
+      "title": "Ervaring",
+      "internship": {
+        "title": "Stage bij Euricom",
+        "description": "Ontwikkeling van een progressieve webapplicatie genaamd Euristrike voor de DEV-Cruise van Euricom"
+      },
+      "education": {
+        "title": "Thomas More Hogeschool",
+        "description": "Application Development"
+      }
+    },
+    "skills": {
+      "title": "Vaardigheden",
+      "description": "Mijn expertise en technische kennis op een rijtje",
+      "technicalSkills": "Technische Vaardigheden",
+      "softSkills": {
+        "title": "Soft Skills",
+        "enthusiastic": "Enthousiast",
+        "driven": "Gedreven",
+        "teamplayer": "Teamplayer",
+        "communicative": "Communicatief",
+        "problemSolver": "Probleemoplossend",
+        "adaptable": "Flexibel"
+      },
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "tools": "Tools"
+    },
+    "hobbies": {
+      "title": "Hobby's",
+      "description": "Naast programmeren houd ik me bezig met...",
+      "list": {
+        "football": "Voetbal",
+        "gaming": "Gaming",
+        "hiking": "Wandelen"
+      }
+    }
+  },
+  "internship": {
+    "title": "Stage Ervaring",
+    "subtitle": "Een overzicht van mijn stage periode en de geleerde vaardigheden",
+    "about": {
+      "title": "Over de Stage",
+      "description1": "De Euristrike Applicatie is een innovatieve tool die ik heb ontwikkeld voor Euricom's jaarlijkse DEV-Cruise, een vierdaags teambuilding evenement in het buitenland. Het doel van de applicatie is om de teamdynamiek en samenwerking te verbeteren door middel van een speelse en competitieve omgeving. De applicatie biedt verschillende spelmodi, zoals 'Free for All' en 'Ranked Mode', waarbij deelnemers elkaar kunnen elimineren met behulp van een Nerf-geweertje. ",
+      "description2": "De Applicatie wordt gebruikt tijdens de DEV-Cruise om medewerkers op een leuke en interactieve manier met elkaar te laten communiceren. Door middel van innovatieve functies en een intuïtieve interface, stelt de applicatie gebruikers in staat om op een speelse en competitieve manier met elkaar te communiceren. Dit draagt niet alleen bij aan een betere teamgeest, maar ook aan een verhoogde productiviteit en tevredenheid onder de deelnemers.",
+      "description3": "Tijdens de ontwikkeling van de Euristrike Applicatie heb ik veel geleerd over zowel technische als organisatorische aspecten. Ik heb samengewerkt in team en een student van een andere hogeschool, wat heeft bijgedragen aan een waardevolle kruisbestuiving van kennis, inzichten en vaardigheden. Daarnaast heb ik geleerd hoe belangrijk het is om feedback van gebruikers te verzamelen en te verwerken, wat heeft geleid tot verdere verfijning en verbetering van de applicatie. Door de uitdagingen die we zijn tegengekomen en hebben overwonnen, heb ik waardevolle ervaring opgedaan in probleemoplossing en projectmanagement.",
+      "technologies": ["React", ".NET", "Azure", "Git"]
+    },
+    "timeline": {
+      "title": "Tijdlijn",
+      "week1": {
+        "title": "Projectvoorbereiding",
+        "description": "Deze week was gericht op het plannen en voorbereiden van het nieuwe project. Ik heb de doelen en taken vastgesteld, een product vision box opgesteld en begonnen met de eerste analyse van het project om de basis en de belangrijkste functionaliteiten beter te begrijpen."
+      },
+      "week2": {
+        "title": "Onderzoek en Analyse",
+        "description": "In deze week heb je diepgaand onderzoek. Ik heb ook gegevens geanalyseerd om inzicht te krijgen in de trends en prototypes gemaakt om een visueel beeld te krijgen van de applicatie. Daarnaast heb ik pipelines opgezet in Azure voor automatische build- en deployprocessen.."
+      },
+      "week3": {
+        "title": "Ontwikkeling",
+        "description": "Deze week stond in het teken van de ontwikkeling van het project. Ik heb gewerkt aan de frontend en backend, feedback verwerkt en een PowerPoint-presentatie ter voorbereiding op het projectplan gemaakt. Ook heb ik een loginpagina ontwikkeld met behulp van Microsoft Authentication Library (MSAL) en Entra ID."
+      },
+      "week4": {
+        "title": "Testen en Feedback",
+        "description": "Ik heb deze week de eerste versie van het project getest en feedback verzameld van het team en enkele gebruikers. Dit hielp je om verbeteringen aan te brengen. Daarnaast heb je gewerkt aan de homepage en de validatie van de authenticatietoken in de backend geïmplementeerd."
+      },
+        "week5": {
+        "title": "Implementatie",
+        "description": "Deze week heb je de verbeteringen geïmplementeerd en het project verder verfijnd. Ik heb ook enkele laatste tests uitgevoerd om ervoor te zorgen dat alles goed werkt. Daarnaast heb ik een demo-presentatie gegeven over de voortgang van het project en gewerkt aan de Selected Game-pagina."
+      },
+      "week6": {
+        "title": " Lancering",
+        "description": "Het project werd deze week officieel gelanceerd. Ik heb een succesvolle lancering gehad en positieve reacties ontvangen van de gebruikers. Ook heb ik gewerkt aan het design voor de target page en een reusable button component ontwikkeld."
+      },
+      "week7": {
+        "title": "Evaluatie",
+        "description": "Deze week heb ik de lancering geëvalueerd en de eerste resultaten geanalyseerd. Ik heb ook feedback verzameld van de gebruikers om verdere verbeteringen aan te brengen. Daarnaast heb ik gewerkt aan bugfixes en de pagina voor het genereren van QR-codes en de scannerpagina gebouwd."
+      }
+    },
+    "documents": {
+      "title": "Documenten",
+      "analysis": {
+        "title": "Analyse",
+        "description": "Gedetailleerde analyse van de stage opdracht en de technische vereisten"
+      },
+      "projectPlan": {
+        "title": "Project Plan",
+        "description": "Planning en aanpak van het stage project met tijdlijn en mijlpalen"
+      },
+      "implementation": {
+        "title": "Realisatie",
+        "description": "Documentatie van de gerealiseerde functionaliteiten en technische implementatie"
+      },
+      "reflection": {
+        "title": "Reflectie",
+        "description": "Persoonlijke reflectie op de stage periode en geleerde lessen"
+      },
+      "download": "Download Word"
+    }
+  },
+  "projects": {
+    "title": "Projecten",
+    "subtitle": "Ontdek mijn recente werk en persoonlijke projecten",
+    "viewProject": "Bekijk Project",
+    "viewCode": "Bekijk Code",
+    "viewVideo": "Bekijk Video",
+    "technologies": "Technologieën",
+    "dialog": {
+      "close": "Sluiten",
+      "demo": "Demo Bekijken",
+      "code": "Code Bekijken",
+      "video": "Video Bekijken"
+    },
+    "comingSoon": "Binnenkort beschikbaar",
+    "list": {
+      "project1": {
+        "title": "AI Bank Dashboard",
+        "description": "Een innovatief dashboard voor het beheren en analyseren van AI-gestuurde gesprekken met dorpsbewoners.",
+        "longDescription": "<p>Voor het project 4.0 kregen mijn team en ik de opdracht om een innovatieve en interactieve AI-bank te ontwikkelen voor de organisatie RURANT. RURANT is een non-profitorganisatie die zich inzet voor de leefbaarheid en verbondenheid in landelijke gebieden. Binnen hun initiatief \"Veerkrachtige Dorpen\" willen ze op een vernieuwende manier de stem van de inwoners horen en daar gericht op inspelen. Onze AI-bank speelt hierin een centrale rol.</p>\n\n<h3>Wat doet de AI-bank?</h3>\n\n<p>De bank is ontworpen om op een toegankelijke manier in gesprek te gaan met mensen die erop plaatsnemen. Door middel van kunstmatige intelligentie stelt de bank vragen aan voorbijgangers of dorpsbewoners. Deze vragen gaan over thema's die belangrijk zijn voor het dorp of de gemeenschap, zoals welzijn, verbondenheid, toekomstvisies of lokale noden. De antwoorden worden volledig anoniem verzameld en opgeslagen. Op die manier ontstaat er een waardevolle databank aan inzichten en meningen rechtstreeks van de bewoners zelf.</p>\n\n<h3>Onze rol in het project</h3>\n\n<p>Binnen dit project was het mijn taak – als student toegepaste informatica met een focus op app-ontwikkeling – om actief mee te werken aan de ontwikkeling van het dashboard. Dit dashboard vormt de schakel tussen de data die de AI-bank verzamelt en de mensen van RURANT die hiermee aan de slag gaan.</p>\n\n<h3>Het dashboard heeft verschillende functies:</h3>\n\n<ul>\n<li>Visualisatie van antwoorden: De anonieme gegevens worden overzichtelijk weergegeven zodat trends, noden en ideeën snel zichtbaar zijn.</li>\n\n<li>Beheer van vragenlijsten: Via het dashboard kunnen medewerkers van RURANT eenvoudig nieuwe vragen opstellen, aanpassen of verwijderen. Op die manier blijft de bank relevant en actueel inspelen op wat er leeft in de dorpen.</li>\n\n<li>Gebruiksvriendelijkheid: Een van mijn belangrijkste bijdragen was het zorgen dat het dashboard intuïtief en gebruiksvriendelijk is, zodat ook mensen zonder technische achtergrond ermee aan de slag kunnen.</li>\n</ul>\n\n<h3>Promo en presentatie</h3>\n\n<p>Het eindresultaat van onze samenwerking werd samengevat in een promotiefilmpje, waarin ook het dashboard en de werking ervan duidelijk worden toegelicht. Dit filmpje dient niet alleen als demonstratie van de technologie, maar ook als hulpmiddel voor RURANT om de meerwaarde van het project te communiceren aan lokale besturen, gemeenschappen en mogelijke partners.</p>\n\n<h3>Reflectie</h3>\n\n<p>Het was een bijzonder leerrijk project waarin technologie, maatschappelijke betrokkenheid en teamwerk samenkwamen. Als student heb ik niet alleen mijn technische vaardigheden kunnen inzetten en aanscherpen, maar ook kunnen bijdragen aan een concreet maatschappelijk doel: het versterken van de veerkracht en samenhorigheid in Vlaamse dorpen.</p>"
+      },
+      "project2": {
+        "title": "Project 2",
+        "description": "Een korte beschrijving van project 2",
+        "longDescription": "Een gedetailleerde uitleg over de ontwikkeling van dit project, inclusief de uitdagingen en oplossingen die zijn toegepast."
+      },
+      "project3": {
+        "title": "Project 3",
+        "description": "Een korte beschrijving van project 3",
+        "longDescription": "Een uitgebreide analyse van dit complexe project, met focus op de architectuur, schaalbaarheid en gebruikte technologieën."
+      }
+    }
+  }
+} 
