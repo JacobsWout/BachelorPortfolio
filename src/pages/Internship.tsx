@@ -2,37 +2,6 @@ import React, { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import './Internship.css';
 
-const internshipDetails = [
-  {
-    date: 'Week 1-2',
-    title: 'Kennismaking en Onboarding',
-    titleEn: 'Introduction and Onboarding',
-    description: 'Introductie tot het bedrijf, het team en de projecten. Opzetten van de ontwikkelomgeving en leren van de bestaande codebase.',
-    descriptionEn: 'Introduction to the company, team, and projects. Setting up the development environment and learning the existing codebase.'
-  },
-  {
-    date: 'Week 3-4',
-    title: 'Eerste Project',
-    titleEn: 'First Project',
-    description: 'Start met het eerste project, focus op frontend ontwikkeling met React en TypeScript. Implementatie van nieuwe features en bug fixes.',
-    descriptionEn: 'Starting with the first project, focusing on frontend development with React and TypeScript. Implementation of new features and bug fixes.'
-  },
-  {
-    date: 'Week 5-6',
-    title: 'Backend Integratie',
-    titleEn: 'Backend Integration',
-    description: 'Werken aan de backend integratie, API ontwikkeling en database optimalisatie. Samenwerking met het backend team.',
-    descriptionEn: 'Working on backend integration, API development, and database optimization. Collaboration with the backend team.'
-  },
-  {
-    date: 'Week 7-8',
-    title: 'Testing en Documentatie',
-    titleEn: 'Testing and Documentation',
-    description: 'Schrijven van unit tests, integratie tests en documentatie. Code reviews en optimalisatie van de applicatie.',
-    descriptionEn: 'Writing unit tests, integration tests, and documentation. Code reviews and application optimization.'
-  }
-];
-
 const technologies = [
   'React', '.NET', 'Azure', 'Git'
 ];

@@ -1,8 +1,5 @@
 import React, { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Button } from 'primereact/button';
-import { Card } from 'primereact/card';
-import { Tag } from 'primereact/tag';
 import './Home.css';
 
 const skills = [

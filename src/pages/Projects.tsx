@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Button } from 'primereact/button';
 import { Dialog } from 'primereact/dialog';
 import './Projects.css';
 
