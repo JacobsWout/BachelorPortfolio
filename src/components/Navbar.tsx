@@ -84,12 +84,13 @@ const Navbar = () => {
           </div>
 
           <a 
-            href="/cv.pdf" 
-            download="CV_Wout_Jacobs" 
+            href="/pdf-viewer.html" 
+            target="_blank" 
+            rel="noopener noreferrer" 
             className="cv-button"
             onClick={() => setIsMobileMenuOpen(false)}
           >
-            <i className="pi pi-download" />
+            <i className="pi pi-file-pdf" />
             {t('navigation.cv')}
           </a>
         </div>

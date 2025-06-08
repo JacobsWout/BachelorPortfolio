@@ -4,7 +4,7 @@
     "about": "About Me",
     "internship": "Internship",
     "projects": "Projects",
-    "cv": "CV"
+    "cv": "View CV"
   },
   "home": {
     "intro": "Welcome to my portfolio",
@@ -16,13 +16,13 @@
     "description": "Welcome to my portfolio website. I am a passionate software developer with the goal of growing and learning"
   },
   "about": {
-    "title": "Who am I",
-    "subtitle": "A passionate developer with a drive for innovation",
+    "title": "About Me",
+    "subtitle": "Learn more about my background and experience",
     "description": "As a final year Application Development student at Thomas More University College, I am constantly expanding my knowledge and skills. My eagerness to learn and perseverance are my greatest assets. I am always ready to help and support others whenever possible. This combination of qualities makes me a valuable addition to any development team.",
     "description2": "With a background in both frontend and backend development, I strive to create innovative solutions that are not only technically solid but also provide an excellent user experience.",
     "whoAmI": "Who am I?",
     "profilePicture": "Profile Picture",
-    "profileTitle": "Software Developer",
+    "profileTitle": "Student Application Development",
     "experience": {
       "title": "Experience",
       "internship": {
@@ -51,15 +51,15 @@
       "backend": "Backend",
       "tools": "Tools"
     },
+    "hobbiesTitle": "Hobbies",
     "hobbies": {
-      "title": "Hobbies",
-      "description": "Besides programming, I enjoy...",
-      "list": {
-        "football": "Football",
-        "gaming": "Gaming",
-        "hiking": "Hiking"
-      }
-    }
+      "football": "Football",
+      "padel": "Padel",
+      "music": "Music",
+      "walking": "Walking"
+    },
+    "viewCV": "View CV",
+    "contact": "Contact"
   },
   "internship": {
     "title": "Internship Experience",
@@ -100,6 +100,14 @@
       "week7": {
         "title": "Evaluation",
         "description": "This week I evaluated the launch and analyzed the initial results. I also collected feedback from users to make further improvements. Additionally, I worked on bug fixes and built the QR code generation page and scanner page."
+      },
+      "weekPlanning": {
+        "title": "Week Planning",
+        "description": "Detailed weekly planning of the internship period with activities and milestones"
+      },
+      "weeklyReport": {
+        "title": "Weekly Report",
+        "description": "Detailed reports of each week during the internship period"
       }
     },
     "documents": {
@@ -120,12 +128,16 @@
         "title": "Reflection",
         "description": "Personal reflection on the internship period and lessons learned"
       },
+      "weeklyReport": {
+        "title": "Weekly Report",
+        "description": "Detailed reports of each week during the internship period"
+      },
       "download": "Download Word"
     }
   },
   "projects": {
     "title": "Projects",
-    "subtitle": "An overview of my projects and work",
+    "subtitle": "Discover my recent work and personal projects",
     "viewProject": "View Project",
     "viewCode": "View Code",
     "viewVideo": "View Video",
@@ -141,18 +153,30 @@
       "project1": {
         "title": "AI Bank Dashboard",
         "description": "An innovative dashboard for managing and analyzing AI-driven conversations with village residents.",
-        "longDescription": "<p>For project 4.0, my team and I were tasked with developing an innovative and interactive AI bank for the organization RURANT. RURANT is a non-profit organization dedicated to improving livability and connectivity in rural areas. Within their \"Resilient Villages\" initiative, they want to hear the voice of residents in a new way and respond accordingly. Our AI bank plays a central role in this.</p>\n\n<h3>What does the AI bank do?</h3>\n\n<p>The bank is designed to engage in conversation with people who sit on it in an accessible way. Through artificial intelligence, the bank asks questions to passersby or village residents. These questions focus on themes that are important to the village or community, such as well-being, connectivity, future visions, or local needs. The answers are collected and stored completely anonymously. This creates a valuable database of insights and opinions directly from the residents themselves.</p>\n\n<h3>Our role in the project</h3>\n\n<p>Within this project, my role as a student of applied computer science with a focus on app development was to actively contribute to the development of the dashboard. This dashboard forms the link between the data collected by the AI bank and the people at RURANT who work with it.</p>\n\n<h3>The dashboard has various functions:</h3>\n\n<ul>\n<li>Answer visualization: The anonymous data is displayed clearly so that trends, needs, and ideas are quickly visible.</li>\n\n<li>Questionnaire management: Through the dashboard, RURANT staff can easily create, modify, or delete new questions. This keeps the bank relevant and current in responding to what's happening in the villages.</li>\n\n<li>User-friendliness: One of my main contributions was ensuring the dashboard is intuitive and user-friendly, so that people without technical backgrounds can work with it.</li>\n</ul>\n\n<h3>Promo and presentation</h3>\n\n<p>The end result of our collaboration was summarized in a promotional video, which also clearly explains the dashboard and its operation. This video serves not only as a demonstration of the technology but also as a tool for RURANT to communicate the added value of the project to local governments, communities, and potential partners.</p>\n\n<h3>Reflection</h3>\n\n<p>It was a particularly educational project where technology, social engagement, and teamwork came together. As a student, I was able to not only apply and refine my technical skills but also contribute to a concrete social goal: strengthening the resilience and cohesion in Flemish villages.</p>",
+        "longDescription": "<p>For project 4.0, my team and I were tasked with developing an innovative and interactive AI bank for the organization RURANT. RURANT is a non-profit organization dedicated to improving livability and connectivity in rural areas. Within their \"Resilient Villages\" initiative, they want to hear the voice of residents in a new way and respond accordingly. Our AI bank plays a central role in this.</p>\n\n<h3>What does the AI bank do?</h3>\n\n<p>The bank is designed to engage in conversation with people who sit on it in an accessible way. Through artificial intelligence, the bank asks questions to passersby or village residents. These questions focus on themes that are important to the village or community, such as well-being, connectivity, future visions, or local needs. The answers are collected and stored completely anonymously. This creates a valuable database of insights and opinions directly from the residents themselves.</p>\n\n<h3>My role in the project</h3>\n\n<p>Within this project, my role as a student of applied computer science with a focus on app development was to actively contribute to the development of the dashboard. This dashboard forms the link between the data collected by the AI bank and the people at RURANT who work with it.</p>\n\n<h3>The dashboard has various functions:</h3>\n\n<ul>\n<li>Answer visualization: The anonymous data is displayed clearly so that trends, needs, and ideas are quickly visible.</li>\n\n<li>Questionnaire management: Through the dashboard, RURANT staff can easily create, modify, or delete new questions. This keeps the bank relevant and current in responding to what's happening in the villages.</li>\n\n<li>User-friendliness: One of my main contributions was ensuring the dashboard is intuitive and user-friendly, so that people without technical backgrounds can work with it.</li>\n</ul>\n\n<h3>Promo and presentation</h3>\n\n<p>The end result of our collaboration was summarized in a promotional video, which also clearly explains the dashboard and its operation. This video serves not only as a demonstration of the technology but also as a tool for RURANT to communicate the added value of the project to local governments, communities, and potential partners.</p>\n\n<h3>Reflection</h3>\n\n<p>It was a particularly educational project where technology, social engagement, and teamwork came together. As a student, I was able to not only apply and refine my technical skills but also contribute to a concrete social goal: strengthening the resilience and cohesion in Flemish villages.</p>",
         "technologies": "React, TypeScript, Node.js, AI Integration, Data Analysis",
         "image": "/project1.jpg",
         "link": "https://frankdebank.nl"
       },
       "project2": {
-        "title": "Project 2",
-        "description": "Another project showcasing my expertise in web development. Built with modern technologies and best practices."
+        "title": "Olense Feesten",
+        "description": "A festival website developed with Angular, where visitors can purchase tickets and find practical information about the program and location.",
+        "longDescription": "<p>For the Angular course, we were assigned to develop a fictional festival where users could purchase tickets online and find practical information. The project focused not only on front-end development in Angular but also on teamwork, structure, and user-friendliness of a real web application. Our chosen festival was named Olense Feesten.</p>\n\n<h3>Project Description</h3>\n\n<p>The assignment was to build a complete web application for an imaginary festival. Visitors to the site needed to be able to learn about the festival, purchase tickets, and learn more about the program, location, practical matters, and atmosphere. Within a team of five students, we worked closely together to perfect all aspects of the platform.</p>\n\n<p>The focus was on applying our knowledge of Angular, component-based development, routing, data binding, and responsive design.</p>\n\n<h3>My contribution to the project</h3>\n\n<p>Within the team, I took an active role in developing several important parts of the website:</p>\n\n<ul>\n<li>The homepage, which served as the first impression for visitors. This page needed to be attractive, clear, and inviting, with visual elements and access to the most important parts of the site.</li>\n\n<li>The stage page, where the program of different performances and artists was clearly displayed. Visitors could see who was performing when at each stage.</li>\n\n<li>Additionally, I was responsible for several smaller but crucial subpages under the 'Practical' section, such as:\n<ul>\n<li>Frequently Asked Questions (FAQ)</li>\n<li>Drink stands with offerings and prices</li>\n</ul>\n</li>\n</ul>\n\n<p>During development, I strongly considered user-friendliness, clear navigation, and consistent visual style, so that visitors could easily orient themselves.</p>\n\n<h3>Collaboration with .NETLab and competition</h3>\n\n<p>An extra dimension to this project was the collaboration with .NETLab, an organization that had set up a competition between different student teams from the App Development program. Each team had to develop their own festival website, and the best implementation was rewarded. The criteria included: technical quality, design, originality, and functionality.</p>\n\n<p>Our team proudly won this competition, which was a nice confirmation of our dedication, collaboration, and technical approach.</p>\n\n<h3>Reflection</h3>\n\n<p>The Olense Feesten project was not only a great exercise in Angular development but also a unique opportunity to turn creative ideas into a working product within a team. By focusing on both visual and functional aspects of the site, I was able to further strengthen my skills in front-end development. Winning the team competition was a nice recognition of our hard work and good collaboration.</p>"
       },
       "project3": {
-        "title": "Project 3",
-        "description": "A complex project combining different aspects of software development. Shows my ability to tackle large projects."
+        "title": "AR Shoe Store",
+        "description": "An innovative mobile application that uses augmented reality to recognize shoes and display detailed product information through an interactive AR experience.",
+        "longDescription": "<p>For the Augmented Reality and Mobile App Development course, we were assigned to develop an innovative mobile application where both mobile development and augmented reality technology were central. This project was carried out in pairs, together with one fellow student. We decided to develop a concept around a shoe store with AR functionality – a modern shopping experience that uses technology to enhance product experience.</p>\n\n<h3>Project Description</h3>\n\n<p>Our idea revolved around creating an application where shoes could be recognized through augmented reality. Customers could scan a shoe with their smartphone camera, after which the application would automatically recognize the shoe. Above the recognized shoe, an informative pop-up would appear with:</p>\n\n<ul>\n<li>Detailed product information (such as brand, size, price, material, etc.)</li>\n<li>A visual 3D element or icon showing what the shoe is typically used for (e.g., running shoe, hiking shoe, casual, etc.)</li>\n</ul>\n\n<p>Besides the AR functionality, users could also browse the offerings within the app. Through a user-friendly interface, they could:</p>\n\n<ul>\n<li>Manually select shoes</li>\n<li>Add them to their wishlist</li>\n<li>Or purchase them immediately via the app</li>\n</ul>\n\n<h3>My contribution to the project</h3>\n\n<p>Within our team of two, I mainly focused on the technical aspect of augmented reality, using Unity and Vuforia/AR Foundation. This included:</p>\n\n<ul>\n<li>Setting up the AR recognition of shoes</li>\n<li>Developing the pop-up with shoe information above the AR object</li>\n<li>Integration of these AR components into the mobile app</li>\n</ul>\n\n<p>Additionally, I was also responsible for developing the wishlist functionality. Users could easily mark shoes they were interested in, and consult this list later to make a purchase.</p>\n\n<p>Through this combination of AR and classic mobile app development, I was able to expand and deepen both my technical skills in Unity and my knowledge of app integrations.</p>\n\n<h3>Reflection</h3>\n\n<p>This project was a valuable experience where creativity, technology, and user experience came together. It offered a unique opportunity to experiment with augmented reality in a practical commercial context, something that is becoming increasingly relevant in modern retail applications. I am proud of the functionality of our application and the fact that I was able to play a key role in realizing both the AR experience and the core functionalities within the app.</p>"
+      },
+      "project4": {
+        "title": "PHP Dashboard",
+        "description": "A comprehensive dashboard for the International Days at school, with functionalities for session management, meal reservations, and attendance registration.",
+        "longDescription": "<p>For the PHP Project course, we were tasked with developing a web application (dashboard) to support the International Days at school. During these days, foreign speakers come to give sessions to students, which requires a clear structure, organization, and communication between all parties involved: students, teachers, speakers, and organizers.</p>\n\n<h3>Project Goal</h3>\n\n<p>The goal of the application was to make the organization of these days smoother and more efficient by centralizing all processes in one user-friendly dashboard. Each user would get access to relevant functionalities after logging in, depending on their role (student, teacher, speaker, admin).</p>\n\n<p>The dashboard included:</p>\n\n<ul>\n<li>An overview of the sessions, including time, speaker, location, and participants</li>\n<li>A schedule per student with their personal session planning</li>\n<li>The ability for students to register for sessions</li>\n<li>A system for lunch management</li>\n<li>Feedback forms after each session</li>\n<li>Attendance lists for teachers</li>\n<li>An extensive management environment for admins, including session planning and room management</li>\n</ul>\n\n<h3>My contribution to the project</h3>\n\n<p>Within our team, I was specifically responsible for several important parts of the application:</p>\n\n<ul>\n<li>Meal management: I developed the part where students could reserve their lunch. This system took into account choices, numbers, and overview for the organization.</li>\n<li>Registration management: I ensured that student registrations per session were correctly stored and displayed, so admins could see who had registered for which sessions.</li>\n<li>Attendance lists: I developed a module where teachers could print lists of students who had registered for their session. This allowed them to easily check who was present.</li>\n</ul>\n\n<p>These parts required both backend development in PHP (such as database connections, logic, and processing) and the development of a clear and user-friendly interface for the different users.</p>\n\n<h3>Reflection</h3>\n\n<p>This project was an educational experience where I was able to strongly expand my skills in PHP, MySQL, and web application development. The combination of technical challenges and building a solution for a realistic organizational problem motivated me greatly. I found it particularly interesting to translate practical needs (such as meal planning and attendance registration) into a well-functioning digital solution.</p>\n\n<p>The result was a complete dashboard that not only structured the International Days but also ensured more efficient communication and follow-up between all parties.</p>"
+      },
+      "project5": {
+        "title": "Data Visualization",
+        "description": "An interactive storyboard about traffic accident data from VIAS, providing insights into trends and patterns around traffic fatalities in Belgium, with a personal connection through a family member who died in a traffic accident.",
+        "longDescription": "<p>For the Data Visualization course, we were assigned to create an interactive storyboard around a dataset of our choice. The goal of this assignment was not just to display data, but to create a coherent story: a data visualization that takes the user from theme to theme, supported by clear graphs, analyses, and interpretations.</p>\n\n<h3>Theme and Approach</h3>\n\n<p>For my project, I chose to work with traffic accident data from VIAS, the Belgian knowledge center for traffic safety. Within that broad dataset, I specifically focused on the topic of traffic fatalities, a theme that personally touches me because my uncle died in a traffic accident. This gave my project not only an analytical approach but also an emotional and societal meaning.</p>\n\n<h3>Project Progress</h3>\n\n<p>The storyboard was built as a visual story with a clear thread. I worked step by step:</p>\n\n<ul>\n<li>First, I examined the dataset and asked myself: What insights do I want to show?</li>\n<li>Then, I brought structure to the story: from general trends in traffic fatalities to specific situations, such as location, time, involved vehicles, and age groups.</li>\n<li>I created graphs and visualizations that not only show data but also raise questions, make connections, and encourage reflection.</li>\n<li>It was also important to check if the data matched the story I wanted to tell: does my interpretation match the numbers? Are there notable outliers?</li>\n</ul>\n\n<p>Throughout the storyboard, I continued to strive for a clear and logical structure, so that the user was carried through the data and understood the story in a natural way.</p>\n\n<h3>Reflection</h3>\n\n<p>I found this a particularly interesting project to make. Working with real data and searching for connections and visual ways to communicate them gave me not only insight into data analysis but also into how important it is to present data correctly and honestly. Additionally, it was a tribute to my uncle and a way to create awareness about traffic safety through numbers.</p>\n\n<p>The complete content and structure of my dashboard are explained in a presentation video, where I explain step by step how the storyboard came about, what choices I made, and what insights emerged from it.</p>"
       }
     }
   }

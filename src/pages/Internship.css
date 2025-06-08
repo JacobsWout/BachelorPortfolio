@@ -12,7 +12,6 @@
 }
 
 .internship-grid {
-  display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 4rem;
   align-items: start;
@@ -141,7 +140,7 @@
 
 .document-cards {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 1.5rem;
   margin-top: 4rem;
   padding: 0 1rem;
@@ -158,10 +157,15 @@
   margin-bottom: 2rem;
 }
 
-.document-card i {
+.document-card i.pi-file-pdf {
   font-size: 2rem;
   color: #ef735e;
-  margin-bottom: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.document-card i.pi-external-link {
+  font-size: 1rem;
+  margin-right: 0.5rem;
 }
 
 .document-card h3 {

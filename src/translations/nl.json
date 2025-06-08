@@ -4,25 +4,25 @@
     "about": "Over Mij",
     "internship": "Stage",
     "projects": "Projecten",
-    "cv": "CV"
+    "cv": "Bekijk CV"
   },
   "home": {
-    "intro": "Welkom bij mijn portfolio",
+    "intro": "Welkom op mijn portfolio",
     "subtitle": "Software Developer in opleiding",
     "graduation": "Afstudeerportfolio",
-    "graduationDescription": "Dit portfolio vertegenwoordigt de culminatie van mijn studie en toont mijn groei als ontwikkelaar. Hier vindt u een overzicht van mijn stage-ervaring, projecten en vaardigheden.",
+    "graduationDescription": "Dit portfolio vormt de bekroning van mijn studie en weerspiegelt mijn ontwikkeling als ontwikkelaar. U vindt hier een overzicht van mijn stage-ervaring, gerealiseerde projecten en verworven vaardigheden.",
     "profilePicture": "Profielfoto",
     "title": "Afstudeerportfolio",
     "description": "Welkom op mijn portfolio website. Ik ben een gepassioneerde software developer met als doel groeien en bijleren "
   },
   "about": {
-    "title": "Wie ben ik",
-    "subtitle": "Een gepassioneerde ontwikkelaar met een drive voor innovatie",
+    "title": "Over Mij",
+    "subtitle": "Leer meer over mijn achtergrond en ervaring",
     "description": "Als laatstejaarsstudent Application Development aan de Thomas More Hogeschool ben ik constant bezig met het uitbreiden van mijn kennis en vaardigheden. Mijn leergierigheid en doorzettingsvermogen zijn mijn grootste troeven. Ik sta altijd klaar om anderen te helpen en te ondersteunen waar mogelijk. Deze combinatie van eigenschappen maakt mij tot een waardevolle toevoeging aan elk ontwikkelteam.",
     "description2": "Met een achtergrond in zowel frontend als backend development, streef ik ernaar om innovatieve oplossingen te creëren die niet alleen technisch solide zijn, maar ook een geweldige gebruikerservaring bieden.",
     "whoAmI": "Wie ben ik?",
     "profilePicture": "Profielfoto",
-    "profileTitle": "Software Developer",
+    "profileTitle": "Student Applicatie Ontwikkeling",
     "experience": {
       "title": "Ervaring",
       "internship": {
@@ -51,22 +51,22 @@
       "backend": "Backend",
       "tools": "Tools"
     },
+    "hobbiesTitle": "Hobby's",
     "hobbies": {
-      "title": "Hobby's",
-      "description": "Naast programmeren houd ik me bezig met...",
-      "list": {
-        "football": "Voetbal",
-        "gaming": "Gaming",
-        "hiking": "Wandelen"
-      }
-    }
+      "football": "Voetbal",
+      "padel": "Padel",
+      "music": "Muziek",
+      "walking": "Wandelen"
+    },
+    "viewCV": "Bekijk CV",
+    "contact": "Contact"
   },
   "internship": {
     "title": "Stage Ervaring",
     "subtitle": "Een overzicht van mijn stage periode en de geleerde vaardigheden",
     "about": {
-      "title": "Over de Stage",
-      "description1": "De Euristrike Applicatie is een innovatieve tool die ik heb ontwikkeld voor Euricom's jaarlijkse DEV-Cruise, een vierdaags teambuilding evenement in het buitenland. Het doel van de applicatie is om de teamdynamiek en samenwerking te verbeteren door middel van een speelse en competitieve omgeving. De applicatie biedt verschillende spelmodi, zoals 'Free for All' en 'Ranked Mode', waarbij deelnemers elkaar kunnen elimineren met behulp van een Nerf-geweertje. ",
+      "title": "Ontwikkeling Euristrike ",
+      "description1": "De Euristrike Applicatie die eerst Gotcha applicatie genoemd werd is een innovatieve tool die ik heb ontwikkeld voor Euricom's jaarlijkse DEV-Cruise, een vierdaags teambuilding evenement in het buitenland. Het doel van de applicatie is om de teamdynamiek en samenwerking te verbeteren door middel van een speelse en competitieve omgeving. De applicatie biedt verschillende spelmodi, zoals 'Free for All' en 'Ranked Mode', waarbij deelnemers elkaar kunnen elimineren met behulp van een Nerf-geweertje. ",
       "description2": "De Applicatie wordt gebruikt tijdens de DEV-Cruise om medewerkers op een leuke en interactieve manier met elkaar te laten communiceren. Door middel van innovatieve functies en een intuïtieve interface, stelt de applicatie gebruikers in staat om op een speelse en competitieve manier met elkaar te communiceren. Dit draagt niet alleen bij aan een betere teamgeest, maar ook aan een verhoogde productiviteit en tevredenheid onder de deelnemers.",
       "description3": "Tijdens de ontwikkeling van de Euristrike Applicatie heb ik veel geleerd over zowel technische als organisatorische aspecten. Ik heb samengewerkt in team en een student van een andere hogeschool, wat heeft bijgedragen aan een waardevolle kruisbestuiving van kennis, inzichten en vaardigheden. Daarnaast heb ik geleerd hoe belangrijk het is om feedback van gebruikers te verzamelen en te verwerken, wat heeft geleid tot verdere verfijning en verbetering van de applicatie. Door de uitdagingen die we zijn tegengekomen en hebben overwonnen, heb ik waardevolle ervaring opgedaan in probleemoplossing en projectmanagement.",
       "technologies": ["React", ".NET", "Azure", "Git"]
@@ -100,7 +100,20 @@
       "week7": {
         "title": "Evaluatie",
         "description": "Deze week heb ik de lancering geëvalueerd en de eerste resultaten geanalyseerd. Ik heb ook feedback verzameld van de gebruikers om verdere verbeteringen aan te brengen. Daarnaast heb ik gewerkt aan bugfixes en de pagina voor het genereren van QR-codes en de scannerpagina gebouwd."
-      }
+      },
+      "weekPlanning": {
+        "title": "Weekplanning",
+        "description": "Gedetailleerde weekplanning van de stage periode met activiteiten en mijlpalen"
+      },
+      "weeklyReport": {
+        "title": "Wekelijks Verslag",
+        "description": "Gedetailleerde verslagen van elke week tijdens de stage periode"
+      },
+      "reflection": {
+        "title": "Reflectie",
+        "description": "Persoonlijke reflectie op de stage periode en geleerde lessen"
+      },
+      "download": "Download Word"
     },
     "documents": {
       "title": "Documenten",
@@ -120,7 +133,11 @@
         "title": "Reflectie",
         "description": "Persoonlijke reflectie op de stage periode en geleerde lessen"
       },
-      "download": "Download Word"
+      "weeklyReport": {
+        "title": "Wekelijks Verslag",
+        "description": "Gedetailleerde verslagen van elke week tijdens de stage periode"
+      }
+      
     }
   },
   "projects": {
@@ -141,17 +158,32 @@
       "project1": {
         "title": "AI Bank Dashboard",
         "description": "Een innovatief dashboard voor het beheren en analyseren van AI-gestuurde gesprekken met dorpsbewoners.",
-        "longDescription": "<p>Voor het project 4.0 kregen mijn team en ik de opdracht om een innovatieve en interactieve AI-bank te ontwikkelen voor de organisatie RURANT. RURANT is een non-profitorganisatie die zich inzet voor de leefbaarheid en verbondenheid in landelijke gebieden. Binnen hun initiatief \"Veerkrachtige Dorpen\" willen ze op een vernieuwende manier de stem van de inwoners horen en daar gericht op inspelen. Onze AI-bank speelt hierin een centrale rol.</p>\n\n<h3>Wat doet de AI-bank?</h3>\n\n<p>De bank is ontworpen om op een toegankelijke manier in gesprek te gaan met mensen die erop plaatsnemen. Door middel van kunstmatige intelligentie stelt de bank vragen aan voorbijgangers of dorpsbewoners. Deze vragen gaan over thema's die belangrijk zijn voor het dorp of de gemeenschap, zoals welzijn, verbondenheid, toekomstvisies of lokale noden. De antwoorden worden volledig anoniem verzameld en opgeslagen. Op die manier ontstaat er een waardevolle databank aan inzichten en meningen rechtstreeks van de bewoners zelf.</p>\n\n<h3>Onze rol in het project</h3>\n\n<p>Binnen dit project was het mijn taak – als student toegepaste informatica met een focus op app-ontwikkeling – om actief mee te werken aan de ontwikkeling van het dashboard. Dit dashboard vormt de schakel tussen de data die de AI-bank verzamelt en de mensen van RURANT die hiermee aan de slag gaan.</p>\n\n<h3>Het dashboard heeft verschillende functies:</h3>\n\n<ul>\n<li>Visualisatie van antwoorden: De anonieme gegevens worden overzichtelijk weergegeven zodat trends, noden en ideeën snel zichtbaar zijn.</li>\n\n<li>Beheer van vragenlijsten: Via het dashboard kunnen medewerkers van RURANT eenvoudig nieuwe vragen opstellen, aanpassen of verwijderen. Op die manier blijft de bank relevant en actueel inspelen op wat er leeft in de dorpen.</li>\n\n<li>Gebruiksvriendelijkheid: Een van mijn belangrijkste bijdragen was het zorgen dat het dashboard intuïtief en gebruiksvriendelijk is, zodat ook mensen zonder technische achtergrond ermee aan de slag kunnen.</li>\n</ul>\n\n<h3>Promo en presentatie</h3>\n\n<p>Het eindresultaat van onze samenwerking werd samengevat in een promotiefilmpje, waarin ook het dashboard en de werking ervan duidelijk worden toegelicht. Dit filmpje dient niet alleen als demonstratie van de technologie, maar ook als hulpmiddel voor RURANT om de meerwaarde van het project te communiceren aan lokale besturen, gemeenschappen en mogelijke partners.</p>\n\n<h3>Reflectie</h3>\n\n<p>Het was een bijzonder leerrijk project waarin technologie, maatschappelijke betrokkenheid en teamwerk samenkwamen. Als student heb ik niet alleen mijn technische vaardigheden kunnen inzetten en aanscherpen, maar ook kunnen bijdragen aan een concreet maatschappelijk doel: het versterken van de veerkracht en samenhorigheid in Vlaamse dorpen.</p>"
+        "longDescription": "<p>Voor het project 4.0 kregen mijn team en ik de opdracht om een innovatieve en interactieve AI-bank te ontwikkelen voor de organisatie RURANT. RURANT is een non-profitorganisatie die zich inzet voor de leefbaarheid en verbondenheid in landelijke gebieden. Binnen hun initiatief \"Veerkrachtige Dorpen\" willen ze op een vernieuwende manier de stem van de inwoners horen en daar gericht op inspelen. Onze AI-bank speelt hierin een centrale rol.</p>\n\n<h3>Wat doet de AI-bank?</h3>\n\n<p>De bank is ontworpen om op een toegankelijke manier in gesprek te gaan met mensen die erop plaatsnemen. Door middel van kunstmatige intelligentie stelt de bank vragen aan voorbijgangers of dorpsbewoners. Deze vragen gaan over thema's die belangrijk zijn voor het dorp of de gemeenschap, zoals welzijn, verbondenheid, toekomstvisies of lokale noden. De antwoorden worden volledig anoniem verzameld en opgeslagen. Op die manier ontstaat er een waardevolle databank aan inzichten en meningen rechtstreeks van de bewoners zelf.</p>\n\n<h3>Mijn rol in het project</h3>\n\n<p>Binnen dit project was het mijn taak – als student toegepaste informatica met een focus op app-ontwikkeling – om actief mee te werken aan de ontwikkeling van het dashboard. Dit dashboard vormt de schakel tussen de data die de AI-bank verzamelt en de mensen van RURANT die hiermee aan de slag gaan.</p>\n\n<h3>Het dashboard heeft verschillende functies:</h3>\n\n<ul>\n<li>Visualisatie van antwoorden: De anonieme gegevens worden overzichtelijk weergegeven zodat trends, noden en ideeën snel zichtbaar zijn.</li>\n\n<li>Beheer van vragenlijsten: Via het dashboard kunnen medewerkers van RURANT eenvoudig nieuwe vragen opstellen, aanpassen of verwijderen. Op die manier blijft de bank relevant en actueel inspelen op wat er leeft in de dorpen.</li>\n\n<li>Gebruiksvriendelijkheid: Een van mijn belangrijkste bijdragen was het zorgen dat het dashboard intuïtief en gebruiksvriendelijk is, zodat ook mensen zonder technische achtergrond ermee aan de slag kunnen.</li>\n</ul>\n\n<h3>Promo en presentatie</h3>\n\n<p>Het eindresultaat van onze samenwerking werd samengevat in een promotiefilmpje, waarin ook het dashboard en de werking ervan duidelijk worden toegelicht. Dit filmpje dient niet alleen als demonstratie van de technologie, maar ook als hulpmiddel voor RURANT om de meerwaarde van het project te communiceren aan lokale besturen, gemeenschappen en mogelijke partners.</p>\n\n<h3>Reflectie</h3>\n\n<p>Het was een bijzonder leerrijk project waarin technologie, maatschappelijke betrokkenheid en teamwerk samenkwamen. Als student heb ik niet alleen mijn technische vaardigheden kunnen inzetten en aanscherpen, maar ook kunnen bijdragen aan een concreet maatschappelijk doel: het versterken van de veerkracht en samenhorigheid in Vlaamse dorpen.</p>"
       },
       "project2": {
-        "title": "Project 2",
-        "description": "Een korte beschrijving van project 2",
-        "longDescription": "Een gedetailleerde uitleg over de ontwikkeling van dit project, inclusief de uitdagingen en oplossingen die zijn toegepast."
+        "title": "Olense feesten",
+        "description": "Een festival website ontwikkeld met Angular, waar bezoekers tickets kunnen bestellen en praktische informatie kunnen raadplegen over het programma en de locatie.",
+        "longDescription": "<p>Voor het vak Angular kregen we vanuit de opleiding de opdracht om een fictief festival te ontwikkelen waarbij gebruikers online tickets konden bestellen en praktische informatie konden raadplegen. Het project draaide niet alleen rond front-end ontwikkeling in Angular, maar ook rond teamwerk, structuur en gebruiksvriendelijkheid van een echte webapplicatie. Ons gekozen festival kreeg de naam Olense Feesten.</p>\n\n<h3>Projectomschrijving</h3>\n\n<p>De opdracht bestond erin een volledige webapplicatie te bouwen voor een denkbeeldig festival. Bezoekers van de site moesten zich kunnen informeren over het festival, tickets kunnen bestellen en meer leren over het programma, de locatie, praktische zaken en sfeer. Binnen een team van vijf studenten werkten we nauw samen om alle onderdelen van het platform tot in de puntjes uit te werken.</p>\n\n<p>De focus lag op het toepassen van onze kennis van Angular, component-based development, routing, data binding en responsive design.</p>\n\n<h3>Mijn bijdrage aan het project</h3>\n\n<p>Binnen het team nam ik een actieve rol op mij bij de ontwikkeling van enkele belangrijke onderdelen van de website:</p>\n\n<ul>\n<li>De homepagina, die als eerste indruk fungeerde voor bezoekers. Deze pagina moest aantrekkelijk, duidelijk en uitnodigend zijn, met visuele elementen en toegang tot de belangrijkste onderdelen van de site.</li>\n\n<li>De podiumpagina, waarop het programma van de verschillende optredens en artiesten overzichtelijk werd weergegeven. Bezoekers konden hier per podium zien wie wanneer optrad.</li>\n\n<li>Daarnaast stond ik ook in voor enkele kleinere maar cruciale subpagina's onder de 'Praktisch'-sectie, zoals:\n<ul>\n<li>Veelgestelde vragen (FAQ)</li>\n<li>Drankstanden met het aanbod en prijzen</li>\n</ul>\n</li>\n</ul>\n\n<p>Tijdens de ontwikkeling hield ik sterk rekening met gebruiksvriendelijkheid, duidelijke navigatie en een consistente visuele stijl, zodat de bezoeker zich moeiteloos kon oriënteren.</p>\n\n<h3>Samenwerking met .NETLab en wedstrijd</h3>\n\n<p>Een extra dimensie aan dit project was de samenwerking met .NETLab, een organisatie die vanuit de opleiding een wedstrijd had opgezet tussen de verschillende studententeams van de richting App Development. Elk team moest zijn eigen festivalwebsite uitwerken, en de beste uitvoering werd beloond. De criteria waren onder andere: technische kwaliteit, design, originaliteit, en functionaliteit.</p>\n\n<p>Ons team wist met trots deze wedstrijd te winnen, wat een mooie bevestiging was van onze inzet, samenwerking en technische aanpak.</p>\n\n<h3>Reflectie</h3>\n\n<p>Het Olense Feesten-project was niet alleen een mooie oefening in Angular-ontwikkeling, maar ook een unieke kans om binnen een team creatieve ideeën om te zetten in een werkend product. Door mijn focus op zowel visuele als functionele onderdelen van de site, heb ik mijn vaardigheden in front-end development verder kunnen versterken. Het winnen van de teamwedstrijd was een fijne erkenning voor ons harde werk en goede samenwerking.</p>"
       },
       "project3": {
-        "title": "Project 3",
-        "description": "Een korte beschrijving van project 3",
-        "longDescription": "Een uitgebreide analyse van dit complexe project, met focus op de architectuur, schaalbaarheid en gebruikte technologieën."
+        "title": "AR Schoenenwinkel",
+        "description": "Een innovatieve mobiele applicatie die augmented reality gebruikt om schoenen te herkennen en gedetailleerde productinformatie te tonen via een interactieve AR-ervaring.",
+        "longDescription": "<p>Voor het vak Augmented Reality and Mobile App Development kregen we de opdracht om een innovatieve mobiele applicatie te ontwikkelen waarbij zowel mobiele ontwikkeling als augmented reality-technologie centraal stonden. Dit project voerden we uit in duo, samen met één medestudent. We besloten om een concept uit te werken rond een schoenenwinkel met AR-functionaliteit – een modern winkelervaring die technologie inzet om productbeleving te versterken.</p>\n\n<h3>Projectomschrijving</h3>\n\n<p>Ons idee draaide rond het creëren van een applicatie waarin schoenen herkend konden worden via augmented reality. Klanten zouden een schoen kunnen scannen met hun smartphonecamera, waarna de applicatie automatisch de schoen herkende. Boven de herkende schoen verscheen vervolgens een informatieve pop-up met:</p>\n\n<ul>\n<li>Gedetailleerde productinformatie (zoals merk, maat, prijs, materiaal, etc.)</li>\n<li>Een visueel 3D-element of icoon dat toonde waar de schoen typisch voor gebruikt wordt (bv. hardloopschoen, wandelschoen, casual, enz.)</li>\n</ul>\n\n<p>Naast de AR-functionaliteit konden gebruikers ook gewoon door het aanbod bladeren binnen de app. Via een gebruiksvriendelijke interface konden ze:</p>\n\n<ul>\n<li>Schoenen manueel selecteren</li>\n<li>Deze toevoegen aan hun verlanglijst</li>\n<li>Of meteen aankopen via de app</li>\n</ul>\n\n<h3>Mijn bijdrage aan het project</h3>\n\n<p>Binnen ons team van twee heb ik me voornamelijk toegelegd op het technische luik van de augmented reality, met behulp van Unity en Vuforia/AR Foundation. Dit hield onder andere in:</p>\n\n<ul>\n<li>Het opzetten van de AR-herkenning van schoenen</li>\n<li>Het ontwikkelen van de pop-up met schoeninfo boven het AR-object</li>\n<li>Integratie van deze AR-componenten in de mobiele app</li>\n</ul>\n\n<p>Daarnaast stond ik ook in voor de ontwikkeling van de verlanglijstfunctionaliteit. Gebruikers konden zo makkelijk schoenen markeren die hen interesseerden, en deze lijst later raadplegen om alsnog tot aankoop over te gaan.</p>\n\n<p>Door deze combinatie van AR en klassieke mobile app development heb ik zowel mijn technische vaardigheden in Unity als mijn kennis van app-integraties kunnen uitbreiden en verdiepen.</p>\n\n<h3>Reflectie</h3>\n\n<p>Dit project was een waardevolle ervaring waarin creativiteit, technologie en gebruikerservaring samenkwamen. Het bood een unieke kans om te experimenteren met augmented reality in een praktische commerciële context, iets wat steeds relevanter wordt in moderne retailtoepassingen. Ik ben trots op de werking van onze applicatie en op het feit dat ik een sleutelrol mocht spelen in het realiseren van zowel de AR-ervaring als de kernfunctionaliteiten binnen de app.</p>"
+      },
+      "project4": {
+        "title": "PHP Dashboard",
+        "description": "Een uitgebreid dashboard voor de Internationale Dagen op school, met functionaliteiten voor sessiebeheer, maaltijdreservaties en aanwezigheidsregistratie.",
+        "longDescription": "<p>Voor het vak Project PHP kregen we in teamverband de opdracht om een webapplicatie (dashboard) te ontwikkelen ter ondersteuning van de Internationale Dagen op school. Tijdens deze dagen komen buitenlandse sprekers langs om sessies te geven aan studenten, en dat vraagt een duidelijke structuur, organisatie en communicatie tussen alle betrokkenen: studenten, docenten, sprekers en organisatoren.</p>\n\n<h3>Doel van het project</h3>\n\n<p>Het doel van de applicatie was om de organisatie van deze dagen vlotter en efficiënter te laten verlopen, door alle processen te centraliseren in één gebruiksvriendelijk dashboard. Elke gebruiker kreeg toegang tot relevante functionaliteiten na inloggen, afhankelijk van zijn of haar rol (student, docent, spreker, admin).</p>\n\n<p>Het dashboard bevatte onder andere:</p>\n\n<ul>\n<li>Een overzicht van de sessies, inclusief tijdstip, spreker, locatie en deelnemers</li>\n<li>Een rooster per student met hun persoonlijke sessieplanning</li>\n<li>De mogelijkheid voor studenten om zich te registreren voor sessies</li>\n<li>Een systeem voor het middagmaalbeheer</li>\n<li>Feedbackformulieren na elke sessie</li>\n<li>Aanwezigheidslijsten voor docenten</li>\n<li>Een uitgebreide beheeromgeving voor admins, met onder meer sessieplanning en lokaalbeheer</li>\n</ul>\n\n<h3>Mijn bijdrage aan het project</h3>\n\n<p>Binnen ons team was ik specifiek verantwoordelijk voor enkele belangrijke onderdelen van de applicatie:</p>\n\n<ul>\n<li>Maaltijdbeheer: Ik ontwikkelde het onderdeel waarbij studenten hun middagmaal konden reserveren. Dit systeem hield rekening met keuzes, aantallen en overzicht voor de organisatie.</li>\n<li>Registratiebeheer: Ik zorgde ervoor dat de registraties van studenten per sessie correct opgeslagen en weergegeven werden, zodat admins konden zien wie zich voor welke sessies had ingeschreven.</li>\n<li>Aanwezigheidslijsten: Ik ontwikkelde een module waarbij docenten lijsten konden afdrukken van studenten die zich voor hun sessie hadden ingeschreven. Zo konden ze eenvoudig controleren wie aanwezig was.</li>\n</ul>\n\n<p>Deze onderdelen vereisten zowel backend-ontwikkeling in PHP (zoals databasekoppelingen, logica en verwerking) als het uitwerken van een duidelijke en gebruiksvriendelijke interface voor de verschillende gebruikers.</p>\n\n<h3>Reflectie</h3>\n\n<p>Dit project was een leerrijke ervaring waarin ik mijn vaardigheden in PHP, MySQL en webapplicatieontwikkeling sterk heb kunnen uitbreiden. De combinatie van technische uitdaging en het bouwen van een oplossing voor een realistisch organisatorisch probleem motiveerde mij enorm. Vooral het vertalen van praktische behoeften (zoals maaltijdplanning en aanwezigheidsregistratie) naar een goed functionerende digitale oplossing vond ik bijzonder interessant.</p>\n\n<p>Het resultaat was een compleet dashboard dat de Internationale Dagen niet alleen structureerde, maar ook zorgde voor efficiëntere communicatie en opvolging tussen alle partijen.</p>"
+      },
+      "project5": {
+        "title": "Data Visualisatie",
+        "description": "Een interactief storyboard over verkeersongevallendata van VIAS, dat inzicht geeft in trends en patronen rond verkeersdoden in België, met een persoonlijke connectie door een familielid dat omkwam bij een verkeersongeval.",
+        "longDescription": "<p>Voor het vak Data Visualisatie kregen we de opdracht om een interactief storyboard te creëren rond een dataset naar keuze. Het doel van deze opdracht was om niet zomaar data weer te geven, maar om er een samenhangend verhaal van te maken: een datavisualisatie die de gebruiker meeneemt van thema naar thema, ondersteund door duidelijke grafieken, analyses en interpretaties.</p>\n\n<h3>Thema en aanpak</h3>\n\n<p>Voor mijn project koos ik ervoor om aan de slag te gaan met verkeersongevallendata afkomstig van VIAS, het Belgisch kenniscentrum voor verkeersveiligheid. Binnen die ruime dataset heb ik me specifiek gefocust op het onderwerp verkeersdoden, een thema dat me persoonlijk raakt, omdat mijn nonkel om het leven is gekomen bij een verkeersongeval. Dit gaf mijn project niet alleen een analytische insteek, maar ook een emotionele en maatschappelijke betekenis.</p>\n\n<h3>Verloop van het project</h3>\n\n<p>Het storyboard werd opgebouwd als een visueel verhaal met een duidelijke rode draad. Ik ging stap voor stap te werk:</p>\n\n<ul>\n<li>Eerst onderzocht ik de dataset en stelde ik mezelf de vraag: Welke inzichten wil ik tonen?</li>\n<li>Vervolgens bracht ik structuur aan in het verhaal: van algemene trends in verkeersdoden naar specifieke situaties, zoals locatie, tijdstip, betrokken vervoermiddelen en leeftijdsgroepen.</li>\n<li>Ik maakte grafieken en visualisaties die niet alleen data tonen, maar ook vragen oproepen, verbanden leggen en aanzetten tot reflectie.</li>\n<li>Belangrijk was ook om te controleren of de data klopte met het verhaal dat ik wilde brengen: klopt mijn interpretatie met de cijfers? Zijn er opvallende uitschieters?</li>\n</ul>\n\n<p>Doorheen het storyboard bleef ik streven naar een heldere en logische opbouw, zodat de gebruiker meegevoerd werd doorheen de data en het verhaal op een natuurlijke manier begreep.</p>\n\n<h3>Reflectie</h3>\n\n<p>Ik vond dit een bijzonder boeiend project om te maken. Het werken met echte data en het zoeken naar verbanden en visuele manieren om die te communiceren, gaf mij niet alleen inzicht in data-analyse, maar ook in hoe belangrijk het is om data correct en eerlijk voor te stellen. Daarnaast was het voor mij een eerbetoon aan mijn nonkel, en een manier om via cijfers bewustwording te creëren rond verkeersveiligheid.</p>\n\n<p>De volledige inhoud en opbouw van mijn dashboard worden toegelicht in een presentatievideo, waarin ik stap voor stap uitleg hoe het storyboard tot stand kwam, welke keuzes ik maakte, en welke inzichten eruit voortkwamen.</p>"
+      },
+      "project6": {
+        "title": "Flutter Webshop",
+        "description": "Een moderne webshop applicatie ontwikkeld met Flutter, met focus op een soepele gebruikerservaring en responsief design.",
+        "longDescription": "<p>Voor dit project heb ik een moderne webshop applicatie ontwikkeld met Flutter. Het doel was om een gebruiksvriendelijke en responsieve webshop te creëren die naadloos werkt op zowel desktop als mobiele apparaten.</p>\n\n<h3>Belangrijkste kenmerken:</h3>\n\n<ul>\n<li>Responsief design dat zich aanpast aan verschillende schermformaten</li>\n<li>Productcatalogus met zoek- en filterfuncties</li>\n<li>Winkelwagen functionaliteit</li>\n<li>Gebruikersauthenticatie en profielbeheer</li>\n<li>Bestelproces met betalingsintegratie</li>\n</ul>\n\n<h3>Technische implementatie:</h3>\n\n<p>De applicatie is gebouwd met Flutter en Dart, wat zorgt voor een consistente gebruikerservaring op verschillende platforms. Voor de backend en database heb ik Firebase gebruikt, wat zorgt voor een schaalbare en betrouwbare infrastructuur. State management is geïmplementeerd met Provider, wat zorgt voor een efficiënte en onderhoudbare codebase.</p>\n\n<h3>Uitdagingen en oplossingen:</h3>\n\n<p>Een van de grootste uitdagingen was het implementeren van een soepel en responsief design dat goed werkt op alle apparaten. Dit heb ik opgelost door gebruik te maken van Flutter's flexibele layout systeem en custom widgets. Daarnaast was de integratie met verschillende betalingsproviders een uitdaging, maar door gebruik te maken van Firebase's extensieve API's kon dit efficiënt worden geïmplementeerd.</p>\n\n<h3>Resultaat:</h3>\n\n<p>Het eindresultaat is een moderne en gebruiksvriendelijke webshop applicatie die voldoet aan alle moderne eisen voor e-commerce. De applicatie biedt een soepele gebruikerservaring, snelle laadtijden en een intuïtieve interface.</p>"
       }
     }
   }

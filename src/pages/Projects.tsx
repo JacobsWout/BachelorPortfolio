@@ -10,7 +10,7 @@ interface Project {
   image: string;
   technologies: string[];
   github?: string;
-  demo: string;
+  demo?: string;
 }
 
 const projects: Project[] = [
@@ -25,20 +25,33 @@ const projects: Project[] = [
   {
     title: 'projects.list.project2.title',
     description: 'projects.list.project2.description',
-    longDescription: 'Een gedetailleerde uitleg over de ontwikkeling van dit project, inclusief de uitdagingen en oplossingen die zijn toegepast.',
-    image: '/project2.jpg',
-    technologies: ['React', 'JavaScript', 'CSS'],
-    github: 'https://github.com/yourusername/project2',
-    demo: 'https://project2.demo'
+    longDescription: 'projects.list.project2.longDescription',
+    image: '/olenseFeestenHome.png',
+    technologies: ['Angular', 'TypeScript', 'HTML', 'CSS'],
+    demo: 'https://www.youtube.com/watch?v=bN-z83eR6es'
   },
   {
     title: 'projects.list.project3.title',
     description: 'projects.list.project3.description',
-    longDescription: 'Een uitgebreide analyse van dit complexe project, met focus op de architectuur, schaalbaarheid en gebruikte technologieën.',
-    image: '/project3.jpg',
-    technologies: ['React', 'TypeScript', 'Node.js', 'MongoDB'],
-    github: 'https://github.com/yourusername/project3',
-    demo: 'https://project3.demo'
+    longDescription: 'projects.list.project3.longDescription',
+    image: '/FlutterLogo.png',
+    technologies: ['Unity', 'Vuforia', 'AR Foundation', 'C#'],
+    demo: 'https://youtu.be/uHxjOI5cCJY'
+  },
+  {
+    title: 'projects.list.project4.title',
+    description: 'projects.list.project4.description',
+    longDescription: 'projects.list.project4.longDescription',
+    image: '/InternationalDays.png',
+    technologies: ['PHP', 'MySQL', 'HTML/CSS', 'JavaScript']
+  },
+  {
+    title: 'projects.list.project5.title',
+    description: 'projects.list.project5.description',
+    longDescription: 'projects.list.project5.longDescription',
+    image: '/qlick.jpg',
+    technologies: ['Qlick',],
+    demo: 'https://youtu.be/GMXKoQbwH80'
   }
 ];
 
@@ -101,28 +114,18 @@ const Projects = () => {
               </div>
               
               <div className="projects-buttons">
-                {project.github && (
+                {project.demo && (
                   <a
-                    href={project.github}
+                    href={project.demo}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="projects-button"
                     onClick={(e) => e.stopPropagation()}
                   >
-                    <i className="pi pi-github" />
-                    {t('projects.viewCode')}
+                    <i className="pi pi-youtube" />
+                    {t('projects.viewVideo')}
                   </a>
                 )}
-                <a
-                  href={project.demo}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="projects-button"
-                  onClick={(e) => e.stopPropagation()}
-                >
-                  <i className="pi pi-external-link" />
-                  {t('projects.viewProject')}
-                </a>
               </div>
             </div>
           ))}
@@ -137,11 +140,24 @@ const Projects = () => {
       >
         {selectedProject && (
           <div className="project-dialog-content">
-            <img 
-              src={selectedProject.image} 
-              alt={t(selectedProject.title)}
-              className="project-dialog-image"
-            />
+            <div>
+              <img 
+                src={selectedProject.image} 
+                alt={t(selectedProject.title)}
+                className="project-dialog-image"
+              />
+              {selectedProject.demo && (
+                <a
+                  href={selectedProject.demo}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="project-dialog-button"
+                >
+                  <i className="pi pi-youtube" />
+                  {t('projects.viewVideo')}
+                </a>
+              )}
+            </div>
             <div className="project-dialog-info">
               <div 
                 className="project-dialog-description"

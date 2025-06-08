@@ -2,12 +2,6 @@ import React, { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import './Home.css';
 
-const skills = [
-  'React', 'Angular', 'TypeScript', 'JavaScript', 'HTML/CSS',
-  '.NET', 'Python', 'PHP',
-  'Git', 'Agile', 'UI/UX'
-];
-
 const Home = () => {
   const { t } = useTranslation();
 
@@ -28,7 +22,6 @@ const Home = () => {
   return (
     <div className="home-container">
       <div className="home-section">
-        {/* Hero Section */}
         <div className="home-grid">
           <div className="fade-in">
             <h1 className="home-title">
@@ -65,46 +58,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-
-      {/* Skills Section */}
-      <section className="skills-section">
-        <div className="home-section">
-          <div className="section-header">
-            <h2 className="section-title">{t('about.skills.title')}</h2>
-            <p className="section-subtitle">
-              {t('about.skills.description')}
-            </p>
-          </div>
-          
-          <div className="skills-grid">
-            <div className="technical-skills">
-              <h3>{t('about.skills.technicalSkills')}</h3>
-              <div className="skills-tags">
-                {skills.map((skill, index) => (
-                  <span key={index} className="skill-tag">
-                    {skill}
-                  </span>
-                ))}
-              </div>
-            </div>
-            
-            <div className="soft-skills">
-              <h3>{t('about.skills.softSkills.title')}</h3>
-              <div className="skills-tags">
-                <span className="skill-tag">{t('about.skills.softSkills.enthusiastic')}</span>
-                <span className="skill-tag">{t('about.skills.softSkills.driven')}</span>
-                <span className="skill-tag">{t('about.skills.softSkills.teamplayer')}</span>
-                <span className="skill-tag">{t('about.skills.softSkills.communicative')}</span>
-                <span className="skill-tag">{t('about.skills.softSkills.problemSolver')}</span>
-                <span className="skill-tag">{t('about.skills.softSkills.adaptable')}</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Projects Preview Section */}
-      
     </div>
   );
 };
