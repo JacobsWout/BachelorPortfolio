@@ -86,7 +86,11 @@ const Internship = () => {
             <i className="pi pi-file-pdf" />
             <h3>{t('internship.documents.implementation.title')}</h3>
             <p>{t('internship.documents.implementation.description')}</p>
-            <a href="/documents/realisatie.pdf" target="_blank" rel="noopener noreferrer">
+            <a 
+              href="/pdf-viewer-realisatie.html" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
               <i className="pi pi-external-link" />
               {t('internship.documents.implementation.title')}
             </a>

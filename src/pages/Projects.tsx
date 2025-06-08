@@ -35,7 +35,7 @@ const projects: Project[] = [
     description: 'projects.list.project3.description',
     longDescription: 'projects.list.project3.longDescription',
     image: '/FlutterLogo.png',
-    technologies: ['Unity', 'Vuforia', 'AR Foundation', 'C#'],
+    technologies: ['Unity', 'Flutter','C#'],
     demo: 'https://youtu.be/uHxjOI5cCJY'
   },
   {
@@ -43,7 +43,7 @@ const projects: Project[] = [
     description: 'projects.list.project4.description',
     longDescription: 'projects.list.project4.longDescription',
     image: '/InternationalDays.png',
-    technologies: ['PHP', 'HTML/CSS', 'JavaScript']
+    technologies: ['PHP', 'HTML/CSS']
   },
   {
     title: 'projects.list.project5.title',
