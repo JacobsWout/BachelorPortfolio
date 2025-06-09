@@ -61,6 +61,14 @@ const About: React.FC = () => {
                     <i className="pi pi-phone" />
                     <span>+32 468 19 40 52</span>
                   </div>
+                  <div className="social-links">
+                    <a href="https://www.linkedin.com/in/wout-jacobs/" target="_blank" rel="noopener noreferrer" className="social-link">
+                      <i className="pi pi-linkedin" />
+                    </a>
+                    <a href="https://github.com/JacobsWout" target="_blank" rel="noopener noreferrer" className="social-link">
+                      <i className="pi pi-github" />
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>

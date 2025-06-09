@@ -273,6 +273,38 @@
   font-size: 1.25rem;
 }
 
+.contact-link {
+  color: #64748b;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.contact-link:hover {
+  color: #ef735e;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.social-link {
+  color: #64748b;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  font-size: 1.5rem;
+}
+
+.social-link i {
+  font-size: 1.5rem;
+}
+
+.social-link:hover {
+  color: #ef735e;
+  transform: scale(1.1);
+}
+
 @media (max-width: 768px) {
   .about-grid {
     grid-template-columns: 1fr;
