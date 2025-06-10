@@ -41,7 +41,7 @@ const About: React.FC = () => {
               <h2 className="profile-name">Wout Jacobs</h2>
               <p className="profile-title">{t('about.profileTitle')}</p>
               <a
-                href="/CV.pdf"
+                href="/pdf-viewer-cv.html"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="about-button"

@@ -35,7 +35,7 @@ const projects: Project[] = [
     description: 'projects.list.project3.description',
     longDescription: 'projects.list.project3.longDescription',
     image: '/FlutterLogo.png',
-    technologies: ['Unity', 'Flutter','C#'],
+    technologies: ['Unity', 'Flutter'],
     demo: 'https://youtu.be/uHxjOI5cCJY'
   },
   {
