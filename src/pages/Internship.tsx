@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import './Internship.css';
 
 const technologies = [
-  'React', '.NET', 'Azure', 'Git'
+  'React', '.NET', 'HTML', 'CSS', 'Azure', 'Git'
 ];
 
 const Internship = () => {

@@ -27,7 +27,7 @@ const projects: Project[] = [
     description: 'projects.list.project2.description',
     longDescription: 'projects.list.project2.longDescription',
     image: '/olenseFeestenHome.png',
-    technologies: ['Angular', 'TypeScript', 'HTML', 'CSS', 'Tailwind'],
+    technologies: ['Angular', '.NET', 'HTML', 'Tailwind'],
     demo: 'https://www.youtube.com/watch?v=bN-z83eR6es'
   },
   {
@@ -43,7 +43,7 @@ const projects: Project[] = [
     description: 'projects.list.project4.description',
     longDescription: 'projects.list.project4.longDescription',
     image: '/InternationalDays.png',
-    technologies: ['PHP', 'HTML/CSS']
+    technologies: ['PHP', 'SQL', 'HTML', 'CSS']
   },
   {
     title: 'projects.list.project5.title',
