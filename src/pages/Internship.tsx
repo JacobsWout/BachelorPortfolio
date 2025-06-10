@@ -50,6 +50,18 @@ const Internship = () => {
                 </span>
               ))}
             </div>
+
+            <div className="internship-buttons">
+              <a
+                href="https://www.youtube.com/watch?v=xBTs_UC0DKQ"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="internship-button"
+              >
+                <i className="pi pi-youtube" />
+                {t('internship.viewVideo')}
+              </a>
+            </div>
           </div>
         </div>
 

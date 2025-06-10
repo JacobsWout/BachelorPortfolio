@@ -138,14 +138,15 @@
         "description": "Gedetailleerde verslagen van elke week tijdens de stage periode"
       }
       
-    }
+    },
+    "viewVideo": "Bekijk Demo"
   },
   "projects": {
     "title": "Projecten",
     "subtitle": "Ontdek mijn recente werk en persoonlijke projecten",
     "viewProject": "Bekijk Project",
     "viewCode": "Bekijk Code",
-    "viewVideo": "Bekijk Video",
+    "viewVideo": "Bekijk Demo",
     "technologies": "Technologieën",
     "dialog": {
       "close": "Sluiten",

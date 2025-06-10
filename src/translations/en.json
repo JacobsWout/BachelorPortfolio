@@ -64,6 +64,7 @@
   "internship": {
     "title": "Internship Experience",
     "subtitle": "An overview of my internship period and acquired skills",
+    "viewVideo": "Watch Demo",
     "about": {
       "title": "Development of Euristrike",
       "description1": "The Euristrike application, which was initially called the Gotcha application, is an innovative Progressive Web App (PWA) that I developed with .NET and React for Euricom's annual DEV-Cruise, a four-day team building event abroad. The purpose of the application is to improve team dynamics and collaboration through a playful and competitive environment. The application offers different game modes, such as 'Free for All' and 'Ranked Mode', where participants can eliminate each other using a Nerf gun.",
@@ -140,7 +141,7 @@
     "subtitle": "Discover my recent work and personal projects",
     "viewProject": "View Project",
     "viewCode": "View Code",
-    "viewVideo": "View Video",
+    "viewVideo": "Watch Demo",
     "technologies": "Technologies",
     "dialog": {
       "close": "Close",
