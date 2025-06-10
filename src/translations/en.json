@@ -17,7 +17,6 @@
   },
   "about": {
     "title": "About Me",
-    "subtitle": "Learn more about my background and experience",
     "description": "As a final year Application Development student at Thomas More University College, I am constantly expanding my knowledge and skills. My eagerness to learn and perseverance are my greatest assets. I am always ready to help and support others whenever possible. This combination of qualities makes me a valuable addition to any development team.",
     "description2": "With a background in both frontend and backend development, I strive to create innovative solutions that are not only technically solid but also provide an excellent user experience.",
     "whoAmI": "Who am I?",
@@ -36,7 +35,6 @@
     },
     "skills": {
       "title": "Skills",
-      "description": "My expertise and technical knowledge",
       "technicalSkills": "Technical Skills",
       "softSkills": {
         "title": "Soft Skills",
@@ -63,7 +61,6 @@
   },
   "internship": {
     "title": "Internship Experience",
-    "subtitle": "An overview of my internship period and acquired skills",
     "viewVideo": "Watch Demo",
     "about": {
       "title": "Development of Euristrike",
@@ -138,7 +135,6 @@
   },
   "projects": {
     "title": "Projects",
-    "subtitle": "Discover my recent work and personal projects",
     "viewProject": "View Project",
     "viewCode": "View Code",
     "viewVideo": "Watch Demo",

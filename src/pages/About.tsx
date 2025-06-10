@@ -25,7 +25,6 @@ const About: React.FC = () => {
       <div className="about-section">
         <div className="section-header">
           <h1 className="section-title">{t('about.title')}</h1>
-          <p className="section-subtitle">{t('about.subtitle')}</p>
         </div>
 
         <div className="about-grid">
@@ -84,7 +83,6 @@ const About: React.FC = () => {
         <div className="skills-section">
           <div className="section-header">
             <h2 className="section-title">{t('about.skills.title')}</h2>
-            <p className="section-subtitle">{t('about.skills.description')}</p>
           </div>
           
           <div className="skills-grid">

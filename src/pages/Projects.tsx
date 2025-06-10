@@ -84,9 +84,7 @@ const Projects = () => {
       <section className="projects-section">
         <div className="section-header">
           <h1 className="section-title">{t('projects.title')}</h1>
-          <p className="section-subtitle">
-            {t('projects.subtitle')}
-          </p>
+          
         </div>
 
         <div className="projects-grid">

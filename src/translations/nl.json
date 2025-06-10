@@ -17,7 +17,6 @@
   },
   "about": {
     "title": "Over Mij",
-    "subtitle": "Leer meer over mijn achtergrond en ervaring",
     "description": "Als laatstejaarsstudent Application Development aan de Thomas More Hogeschool ben ik constant bezig met het uitbreiden van mijn kennis en vaardigheden. Mijn leergierigheid en doorzettingsvermogen zijn mijn grootste troeven. Ik sta altijd klaar om anderen te helpen en te ondersteunen waar mogelijk. Deze combinatie van eigenschappen maakt mij tot een waardevolle toevoeging aan elk ontwikkelteam.",
     "description2": "Met een achtergrond in zowel frontend als backend development, streef ik ernaar om innovatieve oplossingen te creëren die niet alleen technisch solide zijn, maar ook een geweldige gebruikerservaring bieden.",
     "whoAmI": "Wie ben ik?",
@@ -36,7 +35,6 @@
     },
     "skills": {
       "title": "Vaardigheden",
-      "description": "Mijn expertise en technische kennis op een rijtje",
       "technicalSkills": "Technische Vaardigheden",
       "softSkills": {
         "title": "Soft Skills",
@@ -63,7 +61,6 @@
   },
   "internship": {
     "title": "Stage Ervaring",
-    "subtitle": "Een overzicht van mijn stage periode en de geleerde vaardigheden",
     "about": {
       "title": "Ontwikkeling Euristrike ",
       "description1": "De Euristrike applicatie die eerst Gotcha applicatie genoemd werd is een innovatieve Progressive Web App (PWA) die ik heb ontwikkeld met .NET en React voor Euricom's jaarlijkse DEV-Cruise, een vierdaags teambuilding evenement in het buitenland. Het doel van de applicatie is om de teamdynamiek en samenwerking te verbeteren door middel van een speelse en competitieve omgeving. De applicatie biedt verschillende spelmodi, zoals 'Free for All' en 'Ranked Mode', waarbij deelnemers elkaar kunnen elimineren met behulp van een Nerf-geweertje. ",
@@ -143,7 +140,6 @@
   },
   "projects": {
     "title": "Projecten",
-    "subtitle": "Ontdek mijn recente werk en persoonlijke projecten",
     "viewProject": "Bekijk Project",
     "viewCode": "Bekijk Code",
     "viewVideo": "Bekijk Demo",
